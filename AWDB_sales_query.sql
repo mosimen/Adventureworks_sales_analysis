@@ -10,6 +10,7 @@ select DateKey,
 	CalendarQuarter as quarter,
 	CalendarYear as year
 from DimDate
+where CalendarYear >=2019
 
 ---cleaned dimension customers table
 select
